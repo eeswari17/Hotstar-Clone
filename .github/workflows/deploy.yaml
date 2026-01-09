@@ -80,4 +80,3 @@ jobs:
             --service ${{ secrets.ECS_SERVICE }} \
             --force-new-deployment \
             --region ${{ secrets.AWS_REGION }}
-
